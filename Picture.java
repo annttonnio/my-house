@@ -51,9 +51,27 @@ public class Picture
         sun = new Circle();
         sun.changeColor("yellow");
         sun.moveHorizontal(100);
-        sun.moveVertical(-40);
+        sun.moveVertical(60);
         sun.changeSize(80);
         sun.makeVisible();
+        sun.slowMoveVertical(-90);
+        
+        
+        Square campoverde = new Square();
+        campoverde.changeSize(5000);
+        campoverde.moveVertical(100);
+        campoverde.moveVertical(75);
+        campoverde.moveUp();
+        campoverde.moveUp();
+        campoverde.moveHorizontal(200);
+        campoverde.moveHorizontal(-400);
+        campoverde.moveHorizontal(-100);
+        campoverde.changeColor("green");
+        campoverde.makeVisible();
+        
+        
+        
+        
     }
 
     /**
