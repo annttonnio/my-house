@@ -112,11 +112,11 @@ public class Picture
         Person person1 = new Person();
         person1.moveDown();
         person1.moveVertical(5);
-        person1.moveHorizontal(200);
-        person1.slowMoveHorizontal(25);
-        person1.slowMoveHorizontal(25);
+        person1.moveHorizontal(-200);
+        person1.slowMoveHorizontal(-25);
+        person1.slowMoveHorizontal(-25);
         person1.makeVisible();
-        person1.slowMoveHorizontal(-280);
+        person1.slowMoveHorizontal(230);
         
     }
 }
